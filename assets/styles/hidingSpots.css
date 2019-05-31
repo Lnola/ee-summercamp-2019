@@ -1,0 +1,51 @@
+.spot1 {
+  top: 350px;
+  left: 50%;
+}
+.spot2 {
+  top: 177px;
+  right: 105px;
+  filter: invert(100%);
+}
+.spot3 {
+  top: 500px;
+  left: 125px;
+  filter: invert(95%);
+}
+.spot4 {
+  top: 750px;
+  right: 20px;
+}
+.spot5 {
+  top: 1200px;
+}
+.spot6 {
+  top: 1610px;
+}
+.spot7 {
+  top: 1990px;
+}
+.spot8 {
+  top: 2360px;
+}
+.spot9 {
+  top: 2190px;
+  right: 190px;
+}
+.spot10 {
+  top: 1705px;
+  left: 295px;
+}
+.spot11 {
+  top: 1306px;
+  right: 178px;
+}
+.spot12 {
+  top: 2190px;
+  left: 230px;
+}
+.spot13 {
+  top: 135px;
+  right: 120px;
+  filter: invert(100%);
+}

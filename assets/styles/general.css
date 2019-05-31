@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-style: oblique;
+  text-align: center;
+}
+
+header {
+  position: relative;
+}
+
+header img {
+  width: 100%;
+}
+
+header div {
+  position: absolute;
+  top: 80px;
+  right: 100px;
+  color: white;
+}
+
+header h1 {
+  font-size: 85px;
+}
+
+header p {
+  text-align: end;
+  margin-right: 30px;
+}
+
+header div h1,
+header div p {
+  transition: transform 1s ease;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+header div:hover h1,
+header div:hover p {
+  transition: transform 1s ease;
+  transform: matrix(1, -0.2, 0, 1, -40, -40);
+}
+
+.rule {
+  margin: 70px 0 -70px 0;
+  text-align: center;
+}
+
+main {
+  max-width: 80vw;
+  margin: 140px auto;
+  padding: 100px 0;
+  border-top: 5px rgba(0, 0, 0, 0.8) dotted;
+  border-bottom: 5px rgba(0, 0, 0, 0.8) dotted;
+}
+
+.hidden-guitar {
+  position: absolute;
+  width: 20px;
+  top: 0;
+}
+
+.content__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content__row img {
+  width: 400px;
+}
+
+.rotate {
+  transition: transform 1s ease;
+  transform: rotate(0deg);
+}
+
+.rotate:hover {
+  transition: transform 1s ease;
+  transform: rotate(90deg);
+}
+
+.content__row h2 {
+  display: inline-block;
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.content__row img:last-of-type {
+  transform: rotateY(180deg);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -60px 0 60px 0;
+}
+
+.trick {
+  height: 20px;
+  width: 20px;
+  background-image: url("../images/guitar.png");
+  background-position: center;
+  background-size: 100%;
+  margin-left: 5px;
+}
+
+.trick:hover {
+  background-image: url("../images/troll.jpg");
+  transform: scale(4, 4);
+  margin-left: 20px;
+}
