@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./assets/fonts/fonts.css" />
     <link rel="stylesheet" href="./assets/styles/general.css" />
     <link rel="stylesheet" href="./assets/styles/hidingSpots.css" />
     <title>Ready to Rock</title>
@@ -15,14 +14,19 @@
       <img src="./assets/images/freddie.jpg" alt="" />
       <div>
         <h1>Ready to rock</h1>
-        <p>~ Find all the hidden guitars to win ~</p>
+        <p>~ Find all the 14 hidden guitars to win ~</p>
       </div>
-      <p class="rule">The game is intended to be played on 1440 x 900 px</p>
+      <p class="rule">
+        The game is intended to be played on 1440 x 900 px (desktop mode).
+      </p>
     </header>
 
     <main>
+      <p>Bad puns time</p>
       <section class="content__row">
         <img
+          id="1"
+          class="hit-me"
           src="./assets/images/guitar.png"
           alt="Maybe you should click on me???"
         />
@@ -64,72 +68,97 @@
       <span class="trick"></span>
     </footer>
 
+    <div id="win-screen" class="display-none">
+      <div class="win-wrapper">
+        <img src="./assets/images/victory.jpg" alt="" />
+        <div>
+          <h1>All easter eggs found</h1>
+          <h1>You win!!!</h1>
+        </div>
+      </div>
+    </div>
+
     <div>
       <img
-        class="hidden-guitar spot1"
+        id="2"
+        class="hidden-guitar hit-me spot1"
         src="./assets/images/guitar.png"
         alt=""
       />
       <img
-        class="hidden-guitar spot2"
+        id="3"
+        class="hidden-guitar hit-me spot2"
         src="./assets/images/guitar.png"
         alt=""
       />
       <img
-        class="hidden-guitar spot3"
+        id="4"
+        class="hidden-guitar hit-me spot3"
         src="./assets/images/bas.png"
         alt="bonus"
       />
       <img
-        class="hidden-guitar spot4"
+        id="5"
+        class="hidden-guitar hit-me spot4"
         src="./assets/images/guitar.png"
         alt=""
       />
       <img
-        class="hidden-guitar spot5"
+        id="6"
+        class="hidden-guitar hit-me spot5"
         src="./assets/images/guitar.png"
         alt=""
       />
       <img
-        class="hidden-guitar spot6"
+        id="7"
+        class="hidden-guitar hit-me spot6"
         src="./assets/images/guitar.png"
         alt=""
       />
       <img
-        class="hidden-guitar spot7"
+        id="8"
+        class="hidden-guitar hit-me spot7"
         src="./assets/images/guitar.png"
         alt=""
       />
       <img
-        class="hidden-guitar spot8"
+        id="9"
+        class="hidden-guitar hit-me spot8"
         src="./assets/images/guitar.png"
         alt=""
       />
       <img
-        class="hidden-guitar spot9"
+        id="10"
+        class="hidden-guitar hit-me spot9"
         src="./assets/images/guitar.png"
         alt=""
       />
       <img
-        class="hidden-guitar spot10"
+        id="11"
+        class="hidden-guitar hit-me spot10"
         src="./assets/images/guitar.png"
         alt=""
       />
       <img
-        class="hidden-guitar spot11"
+        id="12"
+        class="hidden-guitar hit-me spot11"
         src="./assets/images/guitar.png"
         alt=""
       />
       <img
-        class="hidden-guitar spot12"
+        id="13"
+        class="hidden-guitar hit-me spot12"
         src="./assets/images/guitar.png"
         alt=""
       />
       <img
-        class="hidden-guitar spot13"
+        id="14"
+        class="hidden-guitar hit-me spot13"
         src="./assets/images/guitar.png"
         alt=""
       />
     </div>
+
+    <script src="./assets/script/script.js"></script>
   </body>
 </html>

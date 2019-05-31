@@ -115,3 +115,70 @@ footer {
   transform: scale(3, 3);
   margin-left: 20px;
 }
+
+.action-guitar {
+  transition: transform 0.5s ease;
+  transform: scale(2, 2) rotate(360deg);
+}
+
+.action-guitar--big {
+  transition: transform 0.5s ease;
+  transform: rotate(360deg) scale(1.2, 1.2);
+}
+
+.action-guitar--bas {
+  transition: transform 0.5s ease;
+  filter: invert(30%) !important;
+}
+
+#win-screen {
+  background-color: rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.win-wrapper {
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 20px 70px;
+  position: relative;
+  transition: transform 1s ease;
+  transform: rotate(360deg);
+}
+
+.win-wrapper img {
+  border-radius: 10px 60px;
+}
+
+.win-wrapper div {
+  position: absolute;
+  right: 60px;
+  top: 25px;
+}
+
+.win-wrapper h1 {
+  text-align: right;
+}
+
+.animate-victory {
+  transition: transform 1s ease;
+  transform: rotate(360deg);
+}
+
+.display-none {
+  display: none !important;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
