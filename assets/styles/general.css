@@ -60,6 +60,10 @@ main {
   top: 0;
 }
 
+.hidden-guitar:hover {
+  transform: scale(1.2, 1.2);
+}
+
 .content__row {
   display: flex;
   justify-content: space-between;
@@ -108,6 +112,6 @@ footer {
 
 .trick:hover {
   background-image: url("../images/troll.jpg");
-  transform: scale(4, 4);
+  transform: scale(3, 3);
   margin-left: 20px;
 }
