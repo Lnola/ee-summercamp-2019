@@ -21,7 +21,7 @@ header div {
 }
 
 header h1 {
-  font-size: 85px;
+  font-size: 7vw;
 }
 
 header p {
@@ -56,8 +56,8 @@ main {
 
 .hidden-guitar {
   position: absolute;
-  width: 20px;
-  top: 0;
+  width: 20px !important;
+  z-index: 2;
 }
 
 .hidden-guitar:hover {
@@ -68,6 +68,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .content__row img {

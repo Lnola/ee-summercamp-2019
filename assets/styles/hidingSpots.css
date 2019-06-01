@@ -1,51 +1,44 @@
 .spot1 {
-  top: 350px;
+  top: 38%;
   left: 50%;
 }
 .spot2 {
-  top: 177px;
-  right: 105px;
+  bottom: 0;
+  right: 0;
   filter: invert(100%);
 }
 .spot3 {
-  top: 500px;
-  left: 125px;
+  top: 56%;
+  left: 9%;
   filter: invert(95%);
 }
 .spot4 {
-  top: 750px;
+  bottom: 20%;
   right: 20px;
 }
 .spot5 {
-  top: 1200px;
-}
-.spot6 {
-  top: 1610px;
-}
-.spot7 {
-  top: 1990px;
-}
-.spot8 {
-  top: 2360px;
+  top: 26%;
+  left: 50%;
 }
 .spot9 {
-  top: 2190px;
-  right: 190px;
+  bottom: 50px;
+  right: 50px;
 }
 .spot10 {
-  top: 1705px;
-  left: 295px;
+  top: 222px;
+  left: 160px;
+  filter: invert(100%);
 }
 .spot11 {
-  top: 1306px;
-  right: 178px;
+  top: 230px;
+  right: 70px;
 }
 .spot12 {
-  top: 2190px;
-  left: 230px;
+  bottom: 60px;
+  left: 80px;
 }
 .spot13 {
-  top: 135px;
-  right: 120px;
+  top: 40px;
+  right: 3.5%;
   filter: invert(100%);
 }
