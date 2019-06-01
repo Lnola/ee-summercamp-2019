@@ -183,3 +183,54 @@ footer {
 .overflow-hidden {
   overflow: hidden;
 }
+
+@media screen and (max-width: 1250px) {
+  .content__row img {
+    width: 200px;
+  }
+
+  .content__row h2 {
+    font-size: 24px;
+  }
+
+  .rule {
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  header div {
+    top: 50px;
+    right: 70px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .content__row img {
+    width: 100px;
+  }
+
+  .content__row h2 {
+    font-size: 18px;
+  }
+
+  .rule {
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  header div {
+    top: 20px;
+    right: 20px;
+  }
+
+  header p {
+    font-size: 2vw;
+  }
+
+  main p {
+    margin-bottom: 40px;
+    margin-top: -30px;
+  }
+}

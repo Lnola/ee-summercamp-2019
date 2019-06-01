@@ -42,3 +42,71 @@
   right: 3.5%;
   filter: invert(100%);
 }
+
+@media screen and (max-width: 1250px) {
+  .spot1 {
+    top: 35%;
+  }
+  .spot3 {
+    top: 52%;
+  }
+  .spot4 {
+    bottom: 30%;
+  }
+  .spot9 {
+    bottom: 20px;
+    right: 20px;
+  }
+  .spot10 {
+    top: 20px;
+  }
+  .spot11 {
+    top: 107px;
+    right: 25px;
+  }
+  .spot12 {
+    bottom: 40px;
+    left: 60px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .spot13 {
+    top: 25px;
+    right: 2%;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .spot1 {
+    top: 30%;
+  }
+  .spot3 {
+    top: 45%;
+  }
+  .spot5 {
+    top: 5%;
+  }
+  .spot9 {
+    bottom: 5px;
+    right: 5px;
+  }
+  .spot10 {
+    top: 0;
+    left: 80px;
+  }
+  .spot11 {
+    top: 70px;
+    right: 10px;
+    filter: invert(100%);
+  }
+  .spot12 {
+    bottom: 10px;
+    left: 20px;
+  }
+  .spot13 {
+    top: 20px;
+    right: 3.2%;
+    width: 10px !important;
+  }
+}
