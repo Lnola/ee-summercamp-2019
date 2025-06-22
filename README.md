@@ -1,5 +1,5 @@
 # ee-summercamp-2019
-Easter egg hunt game for ExtensionEngine Summer Camp 2019 entry
+Easter-egg-hunt game.
 
 The rules of the game are simple. You need to find all 14 hidden guitars to win. 
 The game is meant to be played on desktop but it should work on mobile too. 
